@@ -114,7 +114,7 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `Tu puntaje es ${score} out of ${questions.length}`;
+    questionElement.innerHTML = `Tu puntaje es ${score} de ${questions.length}`;
     nextButton.innerHTML = "Juega Otra vez";
     //--------------
     dummy=localStorage.getItem('nombre');
